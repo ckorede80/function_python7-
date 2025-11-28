@@ -32,3 +32,9 @@ def subtract():
     second_num = int(input("Enter the second numer: "))
     result = first_num - second_num
     print(f"the first number{first_num} subtract from {second_num} is {result}")
+
+def multiplication():
+    first_num = int(input("Enter the first numer: "))
+    second_num = int(input("Enter the second numer: "))
+    result = first_num * second_num
+    print(f"the first number{first_num} multiply from {second_num} is {result}")
