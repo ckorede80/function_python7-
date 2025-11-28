@@ -38,3 +38,9 @@ def multiplication():
     second_num = int(input("Enter the second numer: "))
     result = first_num * second_num
     print(f"the first number{first_num} multiply from {second_num} is {result}")
+
+def division():
+    first_num = int(input("Enter the first numer: "))
+    second_num = int(input("Enter the second numer: "))
+    result = first_num / second_num
+    print(f"the first number{first_num} divided by {second_num} is {result}")
